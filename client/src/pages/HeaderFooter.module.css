@@ -1,0 +1,73 @@
+.main {
+    /* background-color: red; */
+    width: 100%;
+}
+
+nav {
+    width: 90%;
+    /* background-color: aqua; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0px;
+}
+
+.logo {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.logo:hover{
+    color: rgb(0, 68, 255);
+}
+
+.headerButton {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.headerButtonLogin{
+    padding: 8px 16px;
+    border-radius: 4px;
+    background-color: lightblue;
+    border: none;
+    letter-spacing: 0.8px;
+    font-weight: bold;
+    font-size: medium;
+    color: blue;
+    cursor: pointer;
+}
+.headerButtonLogin:hover{
+    background-color: rgba(105, 123, 215, 0.43);
+}
+
+.headerButtonRegister{
+    padding: 8px 16px;
+    border-radius: 4px;
+    background-color: lightgreen;
+    border: none;
+    letter-spacing: 0.8px;
+    font-weight: bold;
+    font-size: medium;
+    color: green;
+    cursor: pointer;
+}
+.headerButtonRegister:hover{
+    background-color: rgba(64, 210, 86, 0.711);
+}
+
+
+
+
+footer {
+    width: 90%;
+    /* background-color: #1a1a1a; */
+    /* color: white; */
+    margin: auto;
+    text-align: center;
+}
+.footer-text{
+    margin-bottom: 10px;
+}
